@@ -1,4 +1,4 @@
-# Resume Categorization using BERT model
+# Resume Categorization using Transformer Model
 
 The aim of the project is to categorize resumes using a transformer-based document classification model. It involves preprocessing resume data, training a BERT-based model, and creating a Python script that classifies PDF resumes into predefined categories.
 
