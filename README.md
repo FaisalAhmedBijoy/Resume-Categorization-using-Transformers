@@ -15,7 +15,7 @@ The aim of the project is to categorize resumes using a transformer-based docume
 ## Dataset
 The dataset used in this project consists of:
 
-- **resume.csv**: This file contains the following columns:
+- **Resume.csv**: This file contains the following columns:
   - **ID**: Unique identifier for each resume.
   - **Resume_str**: Text content of the resume.
   - **Resume_html**: HTML content of the resume.
