@@ -46,11 +46,11 @@ pip install -r requirements.txt
 
 1. Distribution of Resume Categories
 
-    ![](images\data_categories.png)
+    ![](images/data_categories.png)
 
 2. Distribution of Resume Length
 
-    ![](images\word_distribution.png)
+    ![](images/word_distribution.png)
 
 ## Model Configuration and Performance
 1. BERT based sequence classification transformers model used for finetune 
@@ -70,7 +70,7 @@ pip install -r requirements.txt
     ``` 
 3. Visualize model performance
 
-    ![](images\model_performance.png)
+    ![](images/model_performance.png)
 
 ## Resume Categorization using Command Line Execution
 The classification of resumes and moves them to their respective category folders and generate a CSV file named **categorized_resumes.csv**
