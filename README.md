@@ -1,7 +1,6 @@
-# Resume Classification Project
+# Resume Categorization using BERT model
 
-The aim of the project is to categorizes resumes using a transformer-based document classification model. It involves preprocessing resume data, training a BERT-based model, and creating a Python script that classifies PDF resumes into predefined categories.
-
+The aim of the project is to categorize resumes using a transformer-based document classification model. It involves preprocessing resume data, training a BERT-based model, and creating a Python script that classifies PDF resumes into predefined categories.
 
 ## Table of Contents
 - [Dataset](#dataset)
@@ -75,13 +74,13 @@ The notebook **resume_categorization_using_bert_model_with_EDA.ipynb** consist o
     ![](images/model_performance.png)
 
 ## Resume Categorization using Command Line Execution
-The classification of resumes and moves them to their respective category folders and generate a CSV file named **categorized_resumes.csv**
+The categorization of resumes moves them to their respective category folders and generates a CSV file named **categorized_resumes.csv**
 
 ```bash
 python script.py path/to/resume_PDF_directory
 ```
-1. The text of the PDF are extracted using fitz and PyMuPDF 
-2. The generated CSV file consist of Filename and Category. This is the sample of the CSV file. 
+1. The text of the PDF is extracted using Fitz
+2. The generated CSV file consists of the filename and category. This is a sample of the CSV file.
     
     ```
     Filename 16852973.pdf
