@@ -6,10 +6,10 @@ The aim of the project is to categorize resumes using a transformer-based docume
 - [Dataset](#dataset)
 - [Model](#model)
 - [Environment Setup](#environment-setup)
-- [Exploratory Data Analysis (EDA) on Resume datal](#EDAl)
-- [Model Configuration and Performance](#model-performance)
+- [Exploratory Data Analysis (EDA) on Resume data](#exploratory-data-analysis-(EDA)-on-resume-data)
+- [Model Configuration and Performance](#model-configuration-and-performance)
 - [Visualization](#visualization)
-- [Resume Categorization using Command Line Execution](#command-line)
+- [Resume Categorization using Command Line Execution](#resume-categorization-using-command-line-execution)
 
 
 ## Dataset
