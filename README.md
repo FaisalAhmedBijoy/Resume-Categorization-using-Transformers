@@ -1,11 +1,9 @@
 # Resume Classification Project
 
-This project categorizes resumes using a transformer-based document classification model. It involves preprocessing resume data, training a BERT-based model, and creating a Python script that classifies PDF resumes into predefined categories.
-
+The aim of the project is to categorizes resumes using a transformer-based document classification model. It involves preprocessing resume data, training a BERT-based model, and creating a Python script that classifies PDF resumes into predefined categories.
 
 
 ## Table of Contents
-- [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Model](#model)
 - [Environment Setup](#environment-setup)
@@ -13,10 +11,6 @@ This project categorizes resumes using a transformer-based document classificati
 - [Model Configuration and Performance](#model-performance)
 - [Visualization](#visualization)
 - [Resume Categorization using Command Line Execution](#command-line)
-
-
-## Project Overview
-The main objective of this project is to automate the classification of resumes into specific categories using a machine learning model. The project uses a BERT-based transformer model to classify resumes based on their content and moves the categorized resumes to corresponding directories.
 
 
 ## Dataset
@@ -27,10 +21,10 @@ The dataset used in this project consists of:
   - **Resume_str**: Text content of the resume.
   - **Resume_html**: HTML content of the resume.
   - **Category**: The actual category to which the resume belongs.
-- **resume_PDF**: A directory containing PDF files named as `{ID}.pdf`, where `ID` corresponds to the `ID` column in `resume.csv`.
+- **Resume_PDF**: A directory containing PDF files named as `{ID}.pdf`, where `ID` corresponds to the `ID` column in `resume.csv`.
 
 ## Model
-The model used in this project is a BERT-based transformer model fine-tuned for document classification. The model was trained on the text content of resumes (`Resume_str` column) to predict their respective categories.
+BERT-based transformer model fine-tuned for document classification. The model was trained on the text content of resumes (`Resume_str` column) to predict their respective categories.
 ## Environment Setup
 
 Requird packages for installation
