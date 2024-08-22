@@ -1,0 +1,7 @@
+fitz==0.0.1.dev2
+matplotlib==3.9.2
+pandas==2.0.3
+scikit_learn==1.5.1
+seaborn==0.13.2
+torch==2.4.0+cu118
+transformers==4.44.1
