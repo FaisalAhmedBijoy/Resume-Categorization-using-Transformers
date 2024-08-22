@@ -1,0 +1,17 @@
+1. The documentation of the project is found in the GitHub README.md file.
+2. The deliverable files and folders are uploaded to the Google Drive link and renamed as the deliverable serial, mentioning the task file.
+
+Deliverable files and folders:
+
+- Jupyter notebook for EDA and model training
+
+- Final train model
+
+- Script.py
+
+- Sample CSV file: categorized_resumes.csv
+
+
+
+
+ 

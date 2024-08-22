@@ -43,6 +43,8 @@ pip install -r requirements.txt
 ```
 
 ## Exploratory Data Analysis (EDA) on Resume data
+ 
+The notebook **Resume_categorization** consist of EDA, data processing, model training and evaluation
 
 1. Distribution of Resume Categories
 
