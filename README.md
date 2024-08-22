@@ -74,13 +74,14 @@ The notebook **resume_categorization_using_bert_model_with_EDA.ipynb** consist o
     ![](images/model_performance.png)
 
 ## Resume Categorization using Command Line Execution
-The categorization of resumes moves them to their respective category folders and generates a CSV file named **categorized_resumes.csv**
+The categorization of resumes moves them to their respective category folders. All the PDFs of resumes are located in the **dataset/all_resume_PDFs** folder.
+The script generates a CSV file named **categorized_resumes.csv**, and the categorization of PDF files is moved to the **logs/model_classified_resume** folder.
 
 ```bash
 python script.py path/to/resume_PDF_directory
 ```
 1. The text of the PDF is extracted using Fitz
-2. The generated CSV file consists of the filename and category. This is a sample of the CSV file.
+2. The generated CSV file consists of the filename and category.This is a sample of the CSV file and locate in **logs/categorized_resumes.csv**.
     
     ```
     Filename 16852973.pdf
