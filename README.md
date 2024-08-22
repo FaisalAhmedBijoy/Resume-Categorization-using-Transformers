@@ -80,7 +80,7 @@ The script generates a CSV file named **categorized_resumes.csv**, and the categ
 ```bash
 python script.py path/to/resume_PDF_directory
 ```
-1. The text of the PDF is extracted using Fitz
+1. The text of the PDF is extracted using Fitz, and resume text is used for the prediction of a sample resume file. 
 2. The generated CSV file consists of the filename and category.This is a sample of the CSV file and locate in **logs/categorized_resumes.csv**.
     
     ```
